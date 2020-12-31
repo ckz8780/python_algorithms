@@ -23,7 +23,7 @@ print(find_uppercase_iterative(str_3))
 # Recursive Approach
 def find_uppercase_recursive(input_str, i=0):
   if input_str[i].isupper():
-    return f'Found uppercae char {input_str[i]}'
+    return f'Found uppercase char {input_str[i]}'
   if i == len(input_str) - 1:
     return 'None found'
   return find_uppercase_recursive(input_str, i + 1)
